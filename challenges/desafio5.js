@@ -4,6 +4,7 @@ db.produtos.find({
     { vendidos: 85 }
   ]
 }, { 
+  _id: false,
   nome: true,
   vendidos: true,
   curtidas: true
